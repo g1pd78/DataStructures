@@ -52,7 +52,7 @@ int Stack::pop() {
 
 void Stack::push(int inputNum) {
 	if (size >= capacity) {
-		std::cout << "Out of range!";
+		std::cout << "Out of range!\n";
 		return;
 	}
 	arr[size++] = inputNum;
